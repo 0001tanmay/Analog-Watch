@@ -1,0 +1,47 @@
+#clock{
+
+    position: relative;
+
+    background-color: red;
+    height: 40vw;
+    width: 40vw;
+    background: url(https://www.learningprintable.com/wp-content/uploads/2017/10/clock-face-image-template.png) no-repeat;
+background-size: 100%;
+}
+
+#hour, #min, #sec{
+    position:absolute;
+    background: green;
+    border-radius: 10px;
+    transform-origin: bottom;
+
+}
+
+#hour{
+    width:1%;
+    height: 14%;
+    top:36.5%;
+    left:49.5%;
+    opacity: 100%;
+    /* display: none; */
+}
+
+#min{
+    border-color:blue;
+
+    width:1%;
+    height: 20%;
+    top:30.5%;
+    left:49.5%;
+    opacity: 80%;
+    /* display: none; */
+}
+#sec{
+    border-color: aqua;
+    width:1%;
+    height: 30%;
+    top:20.5%;
+    left:49.5%;
+    opacity:70%;
+    /* display: none; */
+}
